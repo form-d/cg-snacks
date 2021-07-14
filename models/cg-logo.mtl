@@ -2,12 +2,12 @@
 
 newmtl Mat.2
 Ka 0.49500000476837 0 0.89999997615814
-Kd 0.49500000476837 0 0.89999997615814
+Kd 1 1 1
 illum 7
 
 newmtl Mat.3
 Ka 0 1 0.80000001192093
-Kd 0 1 0.80000001192093
+Kd 1 1 1
 illum 7
 
 newmtl Mat.1
@@ -17,6 +17,7 @@ illum 7
 
 newmtl Mat
 Ka 1 1 1
+map_Ka /Users/howczarzak/Desktop/Bild.png
 Kd 1 1 1
 illum 7
 
