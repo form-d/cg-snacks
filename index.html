@@ -17,6 +17,14 @@
       vr-mode-ui="enabled: false"
       arjs="sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;"
     >
+      <a-asset-item
+        id="logo-obj"
+        src="https://raw.githubusercontent.com/form-d/cg-snacks/master/models/cg-logo.obj"
+      ></a-asset-item>
+      <a-asset-item
+        id="logo-mtl"
+        src="https://raw.githubusercontent.com/form-d/cg-snacks/master/models/cg-logo.mtl"
+      ></a-asset-item>
       <!-- <a-assets>
         <a-asset-item
           id="animated-asset"
@@ -31,10 +39,14 @@
       <a-marker id="animated-marker" type="barcode" value="6">
         <!-- <a-entity animation-mixer gltf-model="#animated-asset" scale="2 2 2">
         </a-entity> -->
-        <a-entity 
+        <a-entity
+          obj-model="obj: #logo-obj; mtl: #logo-mtl"
+          scale="2 2 2"
+        ></a-entity>
+        <!-- <a-entity 
             obj-model=”obj: url(https://raw.githubusercontent.com/form-d/cg-snacks/master/models/cg-logo.obj); 
             mtl: url(https://raw.githubusercontent.com/form-d/cg-snacks/master/models/cg-logo.mtl)”>
-        </a-entity>
+        </a-entity> -->
       </a-marker>
 
       <a-entity camera></a-entity>
