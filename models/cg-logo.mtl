@@ -17,8 +17,8 @@ illum 7
 
 newmtl Mat
 Ka 1 1 1
-map_Ka /Users/howczarzak/Desktop/Bild.png
+map_Ka /images/texture.png
 Kd 0.80000001192093 0.80000001192093 0.80000001192093
-map_Kd /Users/howczarzak/Desktop/Bild.png
+map_Kd /images/texture.png
 illum 7
 
